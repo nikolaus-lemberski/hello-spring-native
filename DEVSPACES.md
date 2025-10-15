@@ -11,12 +11,12 @@ oc create ns openshift-devspaces
 
 4. When ready, open the DevSpaces URL from Operator CheCluster view and login via OpenShift.
 
-5. Create Workspace with the git repo and config:
+5. Create Workspace with the git repo and config:  
 https://github.com/nikolaus-lemberski/hello-spring-native?memoryLimit=8Gi&devfilePath=dev%2Fdevfile.yaml
 
 6. Install GraalVM
 
-In the Workspaces IDE, create a new terminal (select container) and the tooling container will be used (see dev/devfile.yaml).
+In the Workspaces IDE, create a new terminal (select container) and the tooling container will be used (see *dev/devfile.yaml*).
 
 Use the preinstalled *sdkman* to install *GraalVM*:
 
