@@ -1,0 +1,11 @@
+schemaVersion: 2.3.0
+metadata:
+  generateName: hello-quarkus-
+parent:
+  id: java-springboot
+  registryUrl: 'https://registry.devfile.io'
+  version: 1.2.0
+components:
+  - name: tooling-container
+    container:
+      image: quay.io/devfile/universal-developer-image:ubi9-latest
