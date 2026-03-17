@@ -16,7 +16,7 @@ https://github.com/nikolaus-lemberski/hello-spring-native?memoryLimit=8Gi&devfil
 
 6. Install GraalVM
 
-In the Workspaces IDE, create a new terminal (select container) and the tooling container will be used (see *dev/devfile.yaml*).
+In the Workspaces IDE, create a new terminal (select *container*) and the tooling container will be used (see *dev/devfile.yaml*).
 
 Use the preinstalled *sdkman* to install *GraalVM*:
 
