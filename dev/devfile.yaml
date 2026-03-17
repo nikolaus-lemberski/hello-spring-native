@@ -1,6 +1,6 @@
 schemaVersion: 2.3.0
 metadata:
-  generateName: hello-quarkus-
+  generateName: hello-spring-
 parent:
   id: java-springboot
   registryUrl: 'https://registry.devfile.io'
